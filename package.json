@@ -1,0 +1,18 @@
+{
+  "name": "lnote-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    ".cache/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "littlefatcat163",
+  "license": "ISC"
+}
