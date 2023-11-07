@@ -8,7 +8,7 @@ export default function esm() {
     const __dirname = dirname(__filename)
     const __cacheDirname = '.cache'
     const DEFAULT_FN = 'lnote'
-    const defaultCachePath = path.join(__dirname, __cacheDirname, DEFAULT_FN)
+    const defaultCachePath = path.join(__dirname, '../', __cacheDirname, DEFAULT_FN)
     return {
         __dirname,
         __cacheDirname,
@@ -22,6 +22,6 @@ export function getCache() {
     return fs.readFileSync(defaultCachePath, 'utf-8')
 }
 
-export function setCache(value) {
+export function setCache(value: string) {
     fs.writeFileSync(defaultCachePath, value)
 }

@@ -1,18 +1,31 @@
 {
   "name": "lnote-esm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "types": "index.d.ts",
+  "description": "lnote esm utils",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
-    "index.js",
-    "index.d.ts",
-    ".cache/*"
+    "dist",
+    ".cache"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "watch": "npm run build -- --watch src"
   },
   "author": "littlefatcat163",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "tslib": "^2.6.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
 }
