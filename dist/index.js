@@ -37,12 +37,12 @@ __export(src_exports, {
 module.exports = __toCommonJS(src_exports);
 var import_fs = __toESM(require("fs"));
 var import_path = __toESM(require("path"));
-var import_node_path = require("path");
-var import_node_url = require("url");
-var import_meta = {};
+// var import_node_path = require("path");
+// var import_node_url = require("url");
+// var import_meta = {};
 function esm() {
-  const __filename = (0, import_node_url.fileURLToPath)(import_meta.url);
-  const __dirname = (0, import_node_path.dirname)(__filename);
+  // const __filename = (0, import_node_url.fileURLToPath)(import_meta.url);
+  // const __dirname = (0, import_node_path.dirname)(__filename);
   const __cacheDirname = ".cache";
   const DEFAULT_FN = "lnote";
   const defaultCachePath2 = import_path.default.join(__dirname, "../", __cacheDirname, DEFAULT_FN);
