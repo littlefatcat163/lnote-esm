@@ -9,10 +9,12 @@ export default function esm() {
     const __cacheDirname = '.cache'
     const DEFAULT_FN = 'lnote'
     const defaultCachePath = path.join(__dirname, '../', __cacheDirname, DEFAULT_FN)
+    const templatePath = path.join(__dirname, '../', 'template')
     return {
         __dirname,
         __cacheDirname,
         defaultCachePath,
+        templatePath
     }
 }
 

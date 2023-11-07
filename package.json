@@ -1,6 +1,6 @@
 {
   "name": "lnote-esm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lnote esm utils",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,7 +14,8 @@
   },
   "files": [
     "dist",
-    ".cache"
+    ".cache",
+    "template"
   ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",

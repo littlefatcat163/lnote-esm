@@ -9,10 +9,12 @@ function esm() {
   const __cacheDirname = ".cache";
   const DEFAULT_FN = "lnote";
   const defaultCachePath2 = path.join(__dirname, "../", __cacheDirname, DEFAULT_FN);
+  const templatePath = path.join(__dirname, "../", "template");
   return {
     __dirname,
     __cacheDirname,
-    defaultCachePath: defaultCachePath2
+    defaultCachePath: defaultCachePath2,
+    templatePath
   };
 }
 var { defaultCachePath } = esm();

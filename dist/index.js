@@ -46,10 +46,12 @@ function esm() {
   const __cacheDirname = ".cache";
   const DEFAULT_FN = "lnote";
   const defaultCachePath2 = import_path.default.join(__dirname, "../", __cacheDirname, DEFAULT_FN);
+  const templatePath = import_path.default.join(__dirname, "../", "template");
   return {
     __dirname,
     __cacheDirname,
-    defaultCachePath: defaultCachePath2
+    defaultCachePath: defaultCachePath2,
+    templatePath
   };
 }
 var { defaultCachePath } = esm();
