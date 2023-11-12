@@ -39,11 +39,6 @@ highlight:
   tab_replace: ""
   wrap: true
   hljs: false
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ""
 index_generator:
   path: ""
   per_page: 10
