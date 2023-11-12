@@ -25,8 +25,13 @@
     "hexo-renderer-marked": "^6.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-lnote": "^1.0.3",
-    "hexo-yam": "^8.0.0",
-    "lnote-cmds": "^1.0.0"
+    "hexo-theme-lnote": "^1.1.5",
+    "hexo-yam": "^8.0.0"
+  },
+  "devDependencies": {
+    "lnote-cmds": "^1.0.3",
+    "lnote-esm": "^1.0.4",
+    "lodash": "^4.17.21",
+    "vue": "^3.3.7"
   }
 }
