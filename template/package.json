@@ -6,8 +6,8 @@
     "clean": "npx lnote-cmds clean",
     "build": "npx lnote-cmds build",
     "deploy": "npx lnote-cmds deploy",
-    "start": "npx lnote-cmds start -p 3000",
-    "debug": "npx lnote-cmds debug -p 3000",
+    "start": "npx lnote-cmds start",
+    "debug": "npx lnote-cmds debug",
     "page": "npx lnote-cmds page"
   },
   "hexo": {
