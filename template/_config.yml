@@ -62,6 +62,30 @@ deploy:
   repo: git@me.git
   branch:
     - master
+jsonContent:
+  meta: false
+  pages: false
+  dafts: false
+  file: content.json
+  keywords: false
+  dateFormat: false
+  posts:
+    title: true
+    date: false
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: true
+    categories: false
+    tags: false
+    author: false
+
 minify:
   enable: true
   html:
