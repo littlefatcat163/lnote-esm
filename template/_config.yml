@@ -38,7 +38,7 @@ highlight:
   auto_detect: false
   tab_replace: ""
   wrap: true
-  hljs: false
+  hljs: true
 index_generator:
   path: ""
   per_page: 10
