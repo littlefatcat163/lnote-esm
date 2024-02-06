@@ -1,0 +1,51 @@
+1-1:
+  type: primary
+  title: primary
+  text: 蓝色，用于表示主要的动作或强调点。
+
+1-2:
+  type: secondary
+  title: secondary
+  text: 灰色，在视觉上提供了一个较为中性的颜色，通常用于不那么突出的元素，表示次要操作或低优先级的动作。
+
+1-3:
+  type: info
+  title: info
+  text: 青色，用于显示一般信息或额外的说明。
+
+1-4:
+  type: success
+  title: success
+  text: 绿色，成功、完成、通过、正确，用于表示操作成功完成或验证通过。
+
+1-5:
+  type: warning
+  title: warning
+  text: 黄色，警告或需要注意，用于提示用户注意或警告潜在的问题。
+
+1-6:
+  type: danger
+  title: danger
+  text: 红色，错误、危险、坑，用于指示危险的动作、错误或需要用户立即注意的严重问题。
+
+1-7:
+  type: light
+  title: light
+  text: 亮色，用于深色背景，形成鲜明对比，以确保内容的可读性。
+
+1-8:
+  type: dark
+  title: dark
+  text: 暗色，用于亮色背景，形成对比，确保元素的突出和清晰。
+
+0-0:
+  type: info
+  title: 测试外链 lodashjs
+  text: 外链指的是 link 指向其他网址 https://www.lodashjs.com
+  link: https://www.lodashjs.com
+
+0-1:
+  type: primary
+  title: 测试内链font
+  text: 内链指的是 link 指向当前项目上的其他网址，不需要指定name, 比如 http://localhost:4000/lnote-blog/2024/01/10/font，只需要写成 2024/01/10/font 这部分就可以了！
+  link: 2024/01/10/font
